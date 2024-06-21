@@ -172,9 +172,14 @@ WITH ProductSales AS (
         p.ProductName,
         AVG(od.UnitPrice) AS AveragePrice,
         SUM(od.Quantity) AS TotalQuantitySold
-    FROM Products p
-    INNER JOIN [Order Details] od ON p.ProductID = od.ProductID
-    GROUP BY p.ProductID, p.ProductName
+    FROM 
+        Products p
+    INNER JOIN 
+        [Order Details] od 
+    ON 
+        p.ProductID = od.ProductID
+    GROUP BY 
+        p.ProductID, p.ProductName
 ),
 RankedCities AS (
     SELECT 
@@ -182,23 +187,40 @@ RankedCities AS (
         c.City,
         SUM(od.Quantity) AS CityQuantity,
         RANK() OVER (PARTITION BY od.ProductID ORDER BY SUM(od.Quantity) DESC) AS CityRank
-    FROM [Order Details] od
-    INNER JOIN Orders o ON od.OrderID = o.OrderID
-    INNER JOIN Customers c ON o.CustomerID = c.CustomerID
-    GROUP BY od.ProductID, c.City
+    FROM 
+        [Order Details] od
+    INNER JOIN 
+        Orders o 
+    ON 
+        od.OrderID = o.OrderID
+    INNER JOIN 
+        Customers c 
+    ON 
+        o.CustomerID = c.CustomerID
+    GROUP BY 
+        od.ProductID, c.City
 )
+
 SELECT 
     Top 5
     ps.ProductName,
     ps.AveragePrice,
     rc.City
-FROM ProductSales ps
+FROM 
+    ProductSales ps
 JOIN (
-    SELECT ProductID, City
-    FROM RankedCities
-    WHERE CityRank = 1
-) rc ON ps.ProductID = rc.ProductID
-ORDER BY ps.TotalQuantitySold DESC
+        SELECT 
+            ProductID, 
+            City
+        FROM 
+            RankedCities
+        WHERE 
+            CityRank = 1
+    ) rc 
+ON 
+    ps.ProductID = rc.ProductID
+ORDER BY 
+    ps.TotalQuantitySold DESC
 
 -- 9. List all cities that have never ordered something but we have employees there.
 
@@ -238,26 +260,44 @@ WITH EmployeeSales AS (
         e.City AS EmployeeCity,
         COUNT(o.OrderID) AS TotalOrders,
         RANK() OVER (ORDER BY COUNT(o.OrderID) DESC) AS OrderRank
-    FROM Employees e
-    JOIN Orders o ON e.EmployeeID = o.EmployeeID
-    GROUP BY e.City
+    FROM 
+        Employees e
+    JOIN 
+        Orders o 
+    ON 
+        e.EmployeeID = o.EmployeeID
+    GROUP BY 
+        e.City
 ),
 ProductSales AS (
     SELECT 
         c.City AS CustomerCity,
         SUM(od.Quantity) AS TotalQuantity,
         RANK() OVER (ORDER BY SUM(od.Quantity) DESC) AS QuantityRank
-    FROM [Order Details] od
-    JOIN Orders o ON od.OrderID = o.OrderID
-    JOIN Customers c ON o.CustomerID = c.CustomerID
-    GROUP BY c.City
+    FROM 
+        [Order Details] od
+    JOIN 
+        Orders o 
+    ON 
+        od.OrderID = o.OrderID
+    JOIN 
+        Customers c 
+    ON 
+        o.CustomerID = c.CustomerID
+    GROUP BY 
+        c.City
 )
 SELECT 
     es.EmployeeCity AS [City Orders],
     ps.CustomerCity AS [City Products]
-FROM EmployeeSales es
-JOIN ProductSales ps ON es.EmployeeCity = ps.CustomerCity
-WHERE es.OrderRank = 1 AND ps.QuantityRank = 1
+FROM 
+    EmployeeSales es
+JOIN 
+    ProductSales ps 
+ON 
+    es.EmployeeCity = ps.CustomerCity
+WHERE 
+    es.OrderRank = 1 AND ps.QuantityRank = 1
 
 -- 11. How do you remove the duplicates record of a table?
 --ANSWER: 
@@ -269,7 +309,7 @@ WITH CTE AS (
        ROW_NUMBER() OVER (
            PARTITION BY column1, column2, column3 
        ) AS row_num
-   FROM your_table
+   FROM tableName
 )
 DELETE FROM CTE
 WHERE row_num > 1;
