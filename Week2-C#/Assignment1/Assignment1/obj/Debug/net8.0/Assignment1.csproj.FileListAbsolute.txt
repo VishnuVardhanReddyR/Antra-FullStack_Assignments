@@ -1,0 +1,15 @@
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week2-C#/Assignment1/Assignment1/bin/Debug/net8.0/Assignment1
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week2-C#/Assignment1/Assignment1/bin/Debug/net8.0/Assignment1.deps.json
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week2-C#/Assignment1/Assignment1/bin/Debug/net8.0/Assignment1.runtimeconfig.json
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week2-C#/Assignment1/Assignment1/bin/Debug/net8.0/Assignment1.dll
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week2-C#/Assignment1/Assignment1/bin/Debug/net8.0/Assignment1.pdb
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week2-C#/Assignment1/Assignment1/obj/Debug/net8.0/Assignment1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week2-C#/Assignment1/Assignment1/obj/Debug/net8.0/Assignment1.AssemblyInfoInputs.cache
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week2-C#/Assignment1/Assignment1/obj/Debug/net8.0/Assignment1.AssemblyInfo.cs
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week2-C#/Assignment1/Assignment1/obj/Debug/net8.0/Assignment1.csproj.CoreCompileInputs.cache
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week2-C#/Assignment1/Assignment1/obj/Debug/net8.0/Assignment1.sourcelink.json
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week2-C#/Assignment1/Assignment1/obj/Debug/net8.0/Assignment1.dll
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week2-C#/Assignment1/Assignment1/obj/Debug/net8.0/refint/Assignment1.dll
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week2-C#/Assignment1/Assignment1/obj/Debug/net8.0/Assignment1.pdb
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week2-C#/Assignment1/Assignment1/obj/Debug/net8.0/Assignment1.genruntimeconfig.cache
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week2-C#/Assignment1/Assignment1/obj/Debug/net8.0/ref/Assignment1.dll

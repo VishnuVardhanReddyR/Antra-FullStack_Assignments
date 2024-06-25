@@ -1,0 +1,77 @@
+######## 01 Introduction to C# and Data Types ###########
+1. Choosing the Right Data Type:
+   - A person’s telephone number: string (since it’s not used for calculations)
+   - A person’s height: double (to allow for decimal places)
+   - A person’s age: int (age is typically a whole number)
+   - A person’s gender: enum or string (for predefined options)
+   - A person’s salary: decimal (for financial values requiring high precision)
+   - A book’s ISBN: string (it’s a unique identifier, not a number to calculate with)
+   - A book’s price: decimal (precision is important for currency)
+   - A book’s shipping weight: double (could have decimals for pounds or kilograms)
+   - A country’s population: long (population can be very large)
+   - The number of stars in the universe: ulong (an extremely large number)
+   - The number of employees: int (up to 50,000 fits within the int range)
+2. Value vs. Reference Types:
+   - Value types store data directly and are stored in the stack. Examples include int, char, and bool.
+   - Reference types store a reference to the data’s memory address and are stored in the heap. Examples include string, arrays, and class objects.
+   - Boxing is the process of converting a value type to a reference type, encapsulating the value type inside an object.
+   - Unboxing is the reverse process, extracting the value type from the object.
+3. Managed vs. Unmanaged Resources:
+   - Managed resources are those that the .NET runtime is aware of and can control directly, like memory used by .NET objects.
+   - Unmanaged resources are resources not handled by the .NET runtime, such as file handles or database connections.
+4. Purpose of Garbage Collector:
+   - The Garbage Collector (GC) in .NET is responsible for automatically managing memory. It frees up memory used by objects that are no longer accessible in the program, helping to prevent memory leaks and optimizing the application’s memory usage.
+
+########### Generating errors ##############
+using System;
+namespace ErrorExample
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello, World!")
+            
+            int number = "123"; // Intentional mistake: assigning string to an integer variable
+            console.writeline(number); // Intentional mistake: 'Console' is not capitalized
+        }
+    }
+}
+
+########### Controlling Flow and Converting Types ####################
+### Test your Knowledge ###
+1. What happens when you divide an int variable by 0?
+This will cause a DivideByZeroException to be thrown, as dividing by zero is undefined in integer arithmetic.
+
+2. What happens when you divide a double variable by 0?
+If you divide a non-zero double by zero, the result will be positive or negative infinity (Double.PositiveInfinity or Double.NegativeInfinity) depending on the sign of the numerator. If you divide zero by zero, it will result in Double.NaN (Not a Number).
+
+3. What happens when you overflow an int variable, that is, set it to a value beyond itsrange?
+If an int variable overflows, it wraps around to the minimum value if it was positive, or to the maximum value if it was negative, due to the finite size of the data type. In C#, this behavior can be checked with the checked keyword, which will throw an OverflowException if an overflow occurs.
+
+4. What is the difference between x = y++; and x = ++y;?
+x = y++; sets x to the current value of y, then increments y.
+x = ++y; increments y, then sets x to the new value of y.
+
+5. What is the difference between break, continue, and return when used inside a loopstatement?
+break exits the loop immediately.
+continue skips the rest of the current iteration and moves to the next iteration of the loop.
+return exits the loop and the current method, returning a value if the method has a return type.
+
+6. What are the three parts of a for statement and which of them are required?
+Initialization: Sets up the loop variable.
+Condition: Checked before each iteration, and if false, the loop ends.
+Iteration: Executes after each iteration of the loop. The condition is required; the other two parts are optional.
+
+7. What is the difference between the = and == operators?
+= is the assignment operator, used to assign a value to a variable.
+== is the equality operator, used to compare two values for equality.
+
+8. Does the following statement compile? for ( ; true; ) ;
+Yes, it compiles. It’s an infinite loop that will run forever unless interrupted by a break statement or an exception.
+
+9. What does the underscore _ represent in a switch expression?
+The underscore _ is used as a discard, which is a way to match any value that wasn’t matched by previous cases in a switch expression.
+
+10. What interface must an object implement to be enumerated over by using the foreach statement?
+An object must implement the IEnumerable or IEnumerable<T> interface to be enumerated over with a foreach statement. These interfaces require the implementation of the GetEnumerator method, which returns an IEnumerator or IEnumerator<T>.
