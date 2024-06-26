@@ -16,16 +16,38 @@ class Program
            might be something like "Your hacker name is RedGemini480."
          */
         // #### Generating HackerName #####
-        generateHackerName();
-        UnderstandingTypes.memory();
-        Console.WriteLine("Enter Number of Centuries: ");
-        UnderstandingTypes.getDetailsOfCenturies(BigInteger.Parse(Console.ReadLine()));
-        ExerciseThree.getFizzBuzz();
-        ExerciseThree.GuessingGame();
-        ExerciseThree.printPyramid();
-        ExerciseThree.printAge();
-        ExerciseThree.greetings();
-        ExerciseThree.incrementalCounting();
+        // generateHackerName();
+        // UnderstandingTypes.memory();
+        // Console.WriteLine("Enter Number of Centuries: ");
+        // UnderstandingTypes.getDetailsOfCenturies(BigInteger.Parse(Console.ReadLine()));
+        // ExerciseThree.getFizzBuzz();
+        // ExerciseThree.GuessingGame();
+        // ExerciseThree.printPyramid();
+        // ExerciseThree.printAge();
+        // ExerciseThree.greetings();
+        // ExerciseThree.incrementalCounting();
+        // ArraysAndStrings.cpyArray();
+        // int[] primeNumbers = ArraysAndStrings.FindPrimesInRange(1, 10);
+        // for(int i = 0; i < primeNumbers.Length; i++)
+        // {
+        //     Console.WriteLine(primeNumbers[i]);
+        // }
+        // ArraysAndStrings.arrayRotation();
+        // ArraysAndStrings.longestSeq();
+        // ArraysAndStrings.mostFrequent();
+        // ArraysAndStrings.stringToChar();
+        // ArraysAndStrings.backDirection();
+        
+        // string sentence = "C# is not C++, and PHP is not Delphi!";
+        // Console.WriteLine("Original sentence: " + sentence);
+        // Console.WriteLine("Reversed sentence: " + ArraysAndStrings.reverseWords(sentence));
+        
+        // string text = "Hi,exe? ABBA! Hog fully a string: ExE. Bob\na, ABBA, exe, ExE\n";
+        // Console.WriteLine("Original text: " + text);
+        // var palindromes = ArraysAndStrings.extractPalindromes(text);
+        // Console.WriteLine("Palindromes: " + string.Join(", ", palindromes));
+        
+        ArraysAndStrings.parseURL();
     }
     public static void generateHackerName()
     {

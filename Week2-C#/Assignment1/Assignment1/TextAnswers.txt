@@ -75,3 +75,24 @@ The underscore _ is used as a discard, which is a way to match any value that wa
 
 10. What interface must an object implement to be enumerated over by using the foreach statement?
 An object must implement the IEnumerable or IEnumerable<T> interface to be enumerated over with a foreach statement. These interfaces require the implementation of the GetEnumerator method, which returns an IEnumerator or IEnumerator<T>.
+
+########## Arrays and Strings ###############
+1. When to use String vs. StringBuilder in C# ?
+- Use String when you have a fixed or infrequently changing string. Since String is immutable, each modification creates a new string, which can be inefficient for frequent changes.
+- Use StringBuilder when you need to make frequent modifications to a string. StringBuilder is mutable and allows for efficient appending, insertion, and removal of characters.
+
+2. What is the base class for all arrays in C#?
+- The base class for all arrays in C# is System.Array. This class provides various properties and methods for creating, manipulating, and managing arrays.
+
+3. How do you sort an array in C#?
+- To sort an array in C#, you can use the Array.Sort() method. This method sorts the elements in a one-dimensional array.
+
+4. What property of an array object can be used to get the total number of elements in an array?
+- The property to get the total number of elements in an array is Length. It returns the total number of elements across all dimensions of the array.
+
+5. Can you store multiple data types in System.Array?
+- Yes, you can store multiple data types in System.Array by creating an array of type object. Since all types in C# derive from System.Object, an object array can hold elements of any data type.
+
+6. What’s the difference between the System.Array.CopyTo() and System.Array.Clone()?
+- CopyTo() method copies the elements from the source array to a destination array starting at a specified index. It’s useful when you want to copy elements to an existing array.
+- Clone() method creates a new array that is a shallow copy of the original array. It’s useful when you need a duplicate array with the same elements.
