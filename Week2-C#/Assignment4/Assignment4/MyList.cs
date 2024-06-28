@@ -1,5 +1,16 @@
 namespace Assignment4;
 
+/*
+ * Create a Generic List data structure MyList<T> that can store any data type.
+   Implement the following methods.
+   1. void Add (T element)
+   2. T Remove (int index)
+   3. bool Contains (T element)
+   4. void Clear ()
+   5. void InsertAt (T element, int index)
+   6. void DeleteAt (int index)
+   7. T Find (int index)
+ */
 public class MyList<T>
 {
     private List<T> list = new List<T>();
