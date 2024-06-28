@@ -1,0 +1,37 @@
+1. Describe the problem generics address.
+- Generics address the problem of type safety and code reuse. 
+They allow you to define a class or method with placeholders for the type of its fields, methods, parameters, etc., 
+which can then be used with any data type without the need for casting.
+
+2. How would you create a list of strings, using the generic List class?
+- To create a list of strings using the generic List class, you would declare it as follows:
+    List<string> listOfStrings = new List<string>();
+
+3. How many generic type parameters does the Dictionary class have?
+- The Dictionary class has two generic type parameters: one for the key and one for the value.
+
+4. True/False. When a generic class has multiple type parameters, they must all match.
+- False. When a generic class has multiple type parameters, they do not need to match; they can be of different types.
+
+5. What method is used to add items to a List object?
+- The method used to add items to a List object is Add(). For example:
+    listOfStrings.Add("Hello, World!");
+
+6. Name two methods that cause items to be removed from a List.
+- Two methods that cause items to be removed from a List are Remove() and RemoveAt(). 
+Remove() removes the first occurrence of a specific object, and RemoveAt() removes the item at the specified index.
+
+7. How do you indicate that a class has a generic type parameter?
+- To indicate that a class has a generic type parameter, you use angle brackets <>. 
+For example, class MyClass<T> { } where T is the generic type parameter.
+
+8. True/False. Generic classes can only have one generic type parameter.
+- False. Generic classes can have more than one generic type parameter. For example, Dictionary<TKey, TValue>.
+
+9. True/False. Generic type constraints limit what can be used for the generic type.
+- True. Generic type constraints limit what can be used for the generic type by specifying the requirements 
+that must be met by the arguments passed to the type parameter.
+
+10. True/False. Constraints let you use the methods of the thing you are constraining to.
+- True. Constraints allow you to use the methods of the type you are constraining to because you are specifying 
+that the type argument must inherit from a certain base class or implement a certain interface, which guarantees the presence of those methods.
