@@ -1,0 +1,15 @@
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week2-C#/Assignment3/Assignment3/bin/Debug/net8.0/Assignment3
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week2-C#/Assignment3/Assignment3/bin/Debug/net8.0/Assignment3.deps.json
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week2-C#/Assignment3/Assignment3/bin/Debug/net8.0/Assignment3.runtimeconfig.json
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week2-C#/Assignment3/Assignment3/bin/Debug/net8.0/Assignment3.dll
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week2-C#/Assignment3/Assignment3/bin/Debug/net8.0/Assignment3.pdb
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week2-C#/Assignment3/Assignment3/obj/Debug/net8.0/Assignment3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week2-C#/Assignment3/Assignment3/obj/Debug/net8.0/Assignment3.AssemblyInfoInputs.cache
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week2-C#/Assignment3/Assignment3/obj/Debug/net8.0/Assignment3.AssemblyInfo.cs
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week2-C#/Assignment3/Assignment3/obj/Debug/net8.0/Assignment3.csproj.CoreCompileInputs.cache
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week2-C#/Assignment3/Assignment3/obj/Debug/net8.0/Assignment3.sourcelink.json
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week2-C#/Assignment3/Assignment3/obj/Debug/net8.0/Assignment3.dll
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week2-C#/Assignment3/Assignment3/obj/Debug/net8.0/refint/Assignment3.dll
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week2-C#/Assignment3/Assignment3/obj/Debug/net8.0/Assignment3.pdb
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week2-C#/Assignment3/Assignment3/obj/Debug/net8.0/Assignment3.genruntimeconfig.cache
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week2-C#/Assignment3/Assignment3/obj/Debug/net8.0/ref/Assignment3.dll
