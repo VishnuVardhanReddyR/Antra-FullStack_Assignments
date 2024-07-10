@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://d3j0t7vrtr92dk.cloudfront.net/antra/1642697997_AntraLogo.png">
+    <title>Website Header</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+    <style>
+        .footer {
+            position: fixed;
+            height: 300px;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #2f4768;
+            color: white;
+            text-align: center;
+        }
+
+        .container {
+        width: 100%;
+        display: flex;
+        margin-left: 2%;
+        flex-direction: row-reverse;
+        }
+
+        .brand {
+            width: 16rem;
+            text-align: center;
+        }
+
+        .brand-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;
+        }
+
+        .brand-icon {
+        width: 2.5rem;
+        height: 2.5rem;
+        padding: 0.5rem;
+        background-color: #6366f1;
+        border-radius: 9999px;
+        }
+
+        .brand-name {
+        margin-left: 0.75rem;
+        font-size: 1.25rem;
+        }
+
+        .brand-description {
+        margin-top: 0.5rem;
+        font-size: 0.875rem;
+        color: #6b7280;
+        }
+
+        .links {
+        display: flex;
+        width: 100%;
+        float: left;
+        flex-wrap: wrap;
+        margin-top: 2px;
+        margin-left: 24px;
+        }
+
+        .link-group {
+        width: 25%;
+        padding: 0 1rem;
+        }
+
+        .link-title {
+        color: #ffffff;
+        font-size: 0.875rem;
+        margin-bottom: 0.75rem;
+        }
+
+        .link-list {
+        list-style: none;
+        margin-bottom: 2.5rem;
+        }
+
+        .link-item {
+        color: #9ca3af;
+        transition: color 0.3s;
+        cursor: pointer;
+        }
+
+        .link-item:hover {
+        color: #ffffff;
+        }
+
+        .footer-bottom {
+        background-color: rgba(31, 41, 55, 0.75);
+        }
+
+        .footer-text {
+        color: #9ca3af;
+        width: 100%;
+        font-size: 0.875rem;
+        text-align: center;
+        float:left;
+        }
+
+        .footer-link {
+        color: #6b7280;
+        width: 100%;
+        margin-left: 0.25rem;
+        }
+
+        .social-icons {
+        display: flex;
+        width: 100%;
+        float: right;
+        justify-content: center;
+        margin-top: 0.5rem;
+        }
+
+        .social-icon {
+        color: #9ca3af;
+        margin-left: 0.75rem;
+        cursor: pointer;
+        }
+
+        .social-icon:hover{
+            color: rgb(12, 109, 194);
+        }
+
+        .icon {
+        width: 1.25rem;
+        height: 1.25rem;
+        }
+
+        .divider {
+            width: 100%;
+            height: 1px;
+            background-color: #c7c7c7;
+            margin: 2px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <footer class="footer">
+        <div class="container">
+          <div class="brand">
+            <a class="brand-link">
+              <span class="brand-name">Our Locations</span>
+            </a>
+            <img src="https://antra.com/wp-content/uploads/2022/04/world-map-img-foot-1-300x155.png" alt="locations" style="background-color: #2f4768;">
+          </div>
+          <div class="links">
+            <div class="link-group">
+              <h2 class="link-title">Corporate office:</h2>
+              <nav class="link-list">
+                <p>21355 Ridgetop Circle</p>
+                <p>Suite #300</p>
+                <p>Dulles, VA 20166</p>
+                <p>ph: 703 994 4545</p>
+                <p>email: info@antra.net</p>
+              </nav>
+            </div>
+            <div class="link-group">
+              <h2 class="link-title">Services</h2>
+              <nav class="link-list">
+                <li><a class="link-item" href="https://antra.com/technology-services/" target="_blank">Technology Services</a></li>
+                <div class="divider"></div>
+                <li><a class="link-item" href="https://antra.com/business-advisory-services/" target="_blank">Business Advisory Services</a></li>
+                <div class="divider"></div>
+                <li><a class="link-item" href="https://antra.com/professional-services/" target="_blank">Professional Services</a></li>
+                <div class="divider"></div>
+                <li><a class="link-item" href="https://antra.com/blog/" target="_blank">Blog</a></li>
+                <div class="divider"></div>
+                <li><a class="link-item" href="https://antra.com/about-us/" target="_blank">About Us</a></li>
+                <div class="divider"></div>
+                <li><a class="link-item" href="https://antra.com/contact/" target="_blank">Contact Us</a></li>
+              </nav>
+            </div>
+            <div class="link-group">
+              <h2 class="link-title">Resources</h2>
+              <nav class="link-list">
+                <li><a class="link-item" href="https://antra.com/case-studies/" target="_blank">Case Studies</a></li>
+                <div class="divider"></div>
+                <li><a class="link-item" href="https://antra.com/white-papers/" target="_blank">White Papers</a></li>
+                <div class="divider"></div>
+                <li><a class="link-item" href="https://antra.com/technology-resources/" target="_blank">Technology Resources</a></li>
+                <div class="divider"></div>
+                <li><a class="link-item" href="https://antra.com/?page_id=1988" target="_blank">Top Technology Trends 2017</a></li>
+                <div class="divider"></div>
+                <li><a class="link-item" href="https://antra.com/agile-transformations/" target="_blank">Agile Transformations</a></li>
+                <div class="divider"></div>
+                <li><a class="link-item" href="https://antra.com/web-mobile-application-developement/" target="_blank">Web & Mobile Application Development</a></li>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="container">
+            <span class="social-icons">
+              <a class="social-icon" href="https://www.facebook.com/Antra-Inc-160492562793379">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="icon" viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+              </a>
+              <a class="social-icon" href="http://twitter.com/antrainc">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="icon" viewBox="0 0 24 24">
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                </svg>
+              </a>
+              <a class="social-icon" href="https://www.linkedin.com/company/antra-inc.?trk=company_logo">
+                <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="icon" viewBox="0 0 24 24">
+                  <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                  <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                </svg>
+              </a>
+            </span>
+            <p class="footer-text">© 2017 Antra, Inc. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </footer>      
+</body>
+</html>
