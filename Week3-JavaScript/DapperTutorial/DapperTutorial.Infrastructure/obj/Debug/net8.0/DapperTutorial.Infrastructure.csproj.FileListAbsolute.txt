@@ -1,0 +1,16 @@
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/DapperTutorial/DapperTutorial.Infrastructure/bin/Debug/net8.0/DapperTutorial.Infrastructure.deps.json
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/DapperTutorial/DapperTutorial.Infrastructure/bin/Debug/net8.0/DapperTutorial.Infrastructure.dll
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/DapperTutorial/DapperTutorial.Infrastructure/bin/Debug/net8.0/DapperTutorial.Infrastructure.pdb
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/DapperTutorial/DapperTutorial.Infrastructure/bin/Debug/net8.0/DapperTutorial.Core.dll
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/DapperTutorial/DapperTutorial.Infrastructure/bin/Debug/net8.0/DapperTutorial.Core.pdb
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/DapperTutorial/DapperTutorial.Infrastructure/obj/Debug/net8.0/DapperTutorial.Infrastructure.csproj.AssemblyReference.cache
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/DapperTutorial/DapperTutorial.Infrastructure/obj/Debug/net8.0/DapperTutorial.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/DapperTutorial/DapperTutorial.Infrastructure/obj/Debug/net8.0/DapperTutorial.Infrastructure.AssemblyInfoInputs.cache
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/DapperTutorial/DapperTutorial.Infrastructure/obj/Debug/net8.0/DapperTutorial.Infrastructure.AssemblyInfo.cs
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/DapperTutorial/DapperTutorial.Infrastructure/obj/Debug/net8.0/DapperTutorial.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/DapperTutorial/DapperTutorial.Infrastructure/obj/Debug/net8.0/DapperTutorial.Infrastructure.sourcelink.json
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/DapperTutorial/DapperTutorial.Infrastructure/obj/Debug/net8.0/DapperTu.D9B75E00.Up2Date
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/DapperTutorial/DapperTutorial.Infrastructure/obj/Debug/net8.0/DapperTutorial.Infrastructure.dll
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/DapperTutorial/DapperTutorial.Infrastructure/obj/Debug/net8.0/refint/DapperTutorial.Infrastructure.dll
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/DapperTutorial/DapperTutorial.Infrastructure/obj/Debug/net8.0/DapperTutorial.Infrastructure.pdb
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/DapperTutorial/DapperTutorial.Infrastructure/obj/Debug/net8.0/ref/DapperTutorial.Infrastructure.dll

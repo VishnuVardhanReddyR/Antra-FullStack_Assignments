@@ -1,0 +1,15 @@
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/EntityFramework/EntityFramework.Core/bin/Debug/net8.0/EntityFramework.Core.deps.json
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/EntityFramework/EntityFramework.Core/bin/Debug/net8.0/EntityFramework.Core.runtimeconfig.json
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/EntityFramework/EntityFramework.Core/bin/Debug/net8.0/EntityFramework.Core.dll
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/EntityFramework/EntityFramework.Core/bin/Debug/net8.0/EntityFramework.Core.pdb
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/EntityFramework/EntityFramework.Core/obj/Debug/net8.0/EntityFramework.Core.csproj.AssemblyReference.cache
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/EntityFramework/EntityFramework.Core/obj/Debug/net8.0/EntityFramework.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/EntityFramework/EntityFramework.Core/obj/Debug/net8.0/EntityFramework.Core.AssemblyInfoInputs.cache
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/EntityFramework/EntityFramework.Core/obj/Debug/net8.0/EntityFramework.Core.AssemblyInfo.cs
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/EntityFramework/EntityFramework.Core/obj/Debug/net8.0/EntityFramework.Core.csproj.CoreCompileInputs.cache
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/EntityFramework/EntityFramework.Core/obj/Debug/net8.0/EntityFramework.Core.sourcelink.json
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/EntityFramework/EntityFramework.Core/obj/Debug/net8.0/EntityFramework.Core.dll
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/EntityFramework/EntityFramework.Core/obj/Debug/net8.0/refint/EntityFramework.Core.dll
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/EntityFramework/EntityFramework.Core/obj/Debug/net8.0/EntityFramework.Core.pdb
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/EntityFramework/EntityFramework.Core/obj/Debug/net8.0/EntityFramework.Core.genruntimeconfig.cache
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/EntityFramework/EntityFramework.Core/obj/Debug/net8.0/ref/EntityFramework.Core.dll

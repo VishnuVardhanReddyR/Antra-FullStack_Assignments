@@ -1,0 +1,189 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/DapperTutorial/DapperTutorial.Presentation/DapperTutorial.Presentation.csproj": {}
+  },
+  "projects": {
+    "/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/DapperTutorial/DapperTutorial.Core/DapperTutorial.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/DapperTutorial/DapperTutorial.Core/DapperTutorial.Core.csproj",
+        "projectName": "DapperTutorial.Core",
+        "projectPath": "/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/DapperTutorial/DapperTutorial.Core/DapperTutorial.Core.csproj",
+        "packagesPath": "/Users/vishnu/.nuget/packages/",
+        "outputPath": "/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/DapperTutorial/DapperTutorial.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/vishnu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/DapperTutorial/DapperTutorial.Infrastructure/DapperTutorial.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/DapperTutorial/DapperTutorial.Infrastructure/DapperTutorial.Infrastructure.csproj",
+        "projectName": "DapperTutorial.Infrastructure",
+        "projectPath": "/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/DapperTutorial/DapperTutorial.Infrastructure/DapperTutorial.Infrastructure.csproj",
+        "packagesPath": "/Users/vishnu/.nuget/packages/",
+        "outputPath": "/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/DapperTutorial/DapperTutorial.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/vishnu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/DapperTutorial/DapperTutorial.Core/DapperTutorial.Core.csproj": {
+                "projectPath": "/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/DapperTutorial/DapperTutorial.Core/DapperTutorial.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[9.0.0-preview.6.24327.7, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/DapperTutorial/DapperTutorial.Presentation/DapperTutorial.Presentation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/DapperTutorial/DapperTutorial.Presentation/DapperTutorial.Presentation.csproj",
+        "projectName": "DapperTutorial.Presentation",
+        "projectPath": "/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/DapperTutorial/DapperTutorial.Presentation/DapperTutorial.Presentation.csproj",
+        "packagesPath": "/Users/vishnu/.nuget/packages/",
+        "outputPath": "/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/DapperTutorial/DapperTutorial.Presentation/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/vishnu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/DapperTutorial/DapperTutorial.Infrastructure/DapperTutorial.Infrastructure.csproj": {
+                "projectPath": "/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/DapperTutorial/DapperTutorial.Infrastructure/DapperTutorial.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

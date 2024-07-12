@@ -1,0 +1,12 @@
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/DapperTutorial/DapperTutorial.Core/bin/Debug/net8.0/DapperTutorial.Core.deps.json
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/DapperTutorial/DapperTutorial.Core/bin/Debug/net8.0/DapperTutorial.Core.dll
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/DapperTutorial/DapperTutorial.Core/bin/Debug/net8.0/DapperTutorial.Core.pdb
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/DapperTutorial/DapperTutorial.Core/obj/Debug/net8.0/DapperTutorial.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/DapperTutorial/DapperTutorial.Core/obj/Debug/net8.0/DapperTutorial.Core.AssemblyInfoInputs.cache
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/DapperTutorial/DapperTutorial.Core/obj/Debug/net8.0/DapperTutorial.Core.AssemblyInfo.cs
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/DapperTutorial/DapperTutorial.Core/obj/Debug/net8.0/DapperTutorial.Core.csproj.CoreCompileInputs.cache
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/DapperTutorial/DapperTutorial.Core/obj/Debug/net8.0/DapperTutorial.Core.sourcelink.json
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/DapperTutorial/DapperTutorial.Core/obj/Debug/net8.0/DapperTutorial.Core.dll
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/DapperTutorial/DapperTutorial.Core/obj/Debug/net8.0/refint/DapperTutorial.Core.dll
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/DapperTutorial/DapperTutorial.Core/obj/Debug/net8.0/DapperTutorial.Core.pdb
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week3-JavaScript/DapperTutorial/DapperTutorial.Core/obj/Debug/net8.0/ref/DapperTutorial.Core.dll
