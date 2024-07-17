@@ -1,0 +1,23 @@
+@model IEnumerable<MovieResponseModel>
+
+<h2>Movies List</h2>
+@if (Model != null)
+{
+    <div class="card-group">
+        @foreach (var item in Model)
+        {
+            <div class="card">
+                <img class="card-img-top" src="@item.BackdropUrl" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">@item.Title</h5>
+                    <p class="card-text">@item.Overview</p>
+                    <p class="card-text"><small class="text-muted">Last Updated @item.UpdatedDate Minutes ago </small></p>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <h3>No Movies to show</h3>
+}

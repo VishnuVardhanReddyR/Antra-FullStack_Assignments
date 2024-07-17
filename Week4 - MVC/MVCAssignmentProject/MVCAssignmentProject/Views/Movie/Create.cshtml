@@ -1,0 +1,53 @@
+@model MovieRequestModel
+
+<form asp-action="Create" asp-controller="Movie">
+    <div class="my-3">
+        <label>Enter Movie Title</label>
+        <input type="text" name="Title" placeholder="Enter Movie Title" class="form-control"/>
+    </div>
+    <div class="my-3">
+        <label>Enter BackDropUrl</label>
+        <input type="text" name="BackdropUrl" placeholder="Enter BackDrop Url" class="form-control"/>
+    </div>
+    <div class="my-3">
+        <label>Enter Movie Budget</label>
+        <input type="text" name="Budget" class="form-control"/>
+    </div>
+    <div class="my-3">
+        <label>Enter Movie ImdbUrl</label>
+        <input type="text" name="ImdbUrl" class="form-control"/>
+    </div>
+    <div class="my-3">
+        <label>Enter Movie Original Language</label>
+        <input type="text" name="OriginalLanguage" class="form-control"/>
+    </div>
+    <div class="my-3">
+        <label>Enter Movie Overview</label>
+        <input type="text" name="Overview" class="form-control"/>
+    </div>
+    <div class="my-3">
+        <label>Enter PosterUrl</label>
+        <input type="text" name="PosterUrl" class="form-control"/>
+    </div>
+    <div class="my-3">
+        <label>Enter Price</label>
+        <input type="text" name="Price" class="form-control"/>
+    </div>
+    <div class="my-3">
+        <label>Enter Revenue</label>
+        <input type="text" name="Revenue" class="form-control"/>
+    </div>
+    <div class="my-3">
+        <label>Enter RunTime</label>
+        <input type="text" name="RunTime" class="form-control"/>
+    </div>
+    <div class="my-3">
+        <label>Enter TagLine</label>
+        <input type="text" name="TagLine" class="form-control"/>
+    </div>    
+    <div class="my-3">
+        <label>Enter TmdbUrl</label>
+        <input type="text" name="TmdbUrl" class="form-control"/>
+    </div>
+    <input type="submit" value="Save" class="btn-primary btn"/>
+</form>

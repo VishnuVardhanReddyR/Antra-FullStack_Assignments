@@ -1,0 +1,15 @@
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week4 - MVC/MVCAssignmentProject/ApplicationCore/bin/Debug/net8.0/ApplicationCore.deps.json
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week4 - MVC/MVCAssignmentProject/ApplicationCore/bin/Debug/net8.0/ApplicationCore.runtimeconfig.json
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week4 - MVC/MVCAssignmentProject/ApplicationCore/bin/Debug/net8.0/ApplicationCore.dll
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week4 - MVC/MVCAssignmentProject/ApplicationCore/bin/Debug/net8.0/ApplicationCore.pdb
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week4 - MVC/MVCAssignmentProject/ApplicationCore/obj/Debug/net8.0/ApplicationCore.csproj.AssemblyReference.cache
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week4 - MVC/MVCAssignmentProject/ApplicationCore/obj/Debug/net8.0/ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week4 - MVC/MVCAssignmentProject/ApplicationCore/obj/Debug/net8.0/ApplicationCore.AssemblyInfoInputs.cache
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week4 - MVC/MVCAssignmentProject/ApplicationCore/obj/Debug/net8.0/ApplicationCore.AssemblyInfo.cs
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week4 - MVC/MVCAssignmentProject/ApplicationCore/obj/Debug/net8.0/ApplicationCore.csproj.CoreCompileInputs.cache
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week4 - MVC/MVCAssignmentProject/ApplicationCore/obj/Debug/net8.0/ApplicationCore.sourcelink.json
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week4 - MVC/MVCAssignmentProject/ApplicationCore/obj/Debug/net8.0/ApplicationCore.dll
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week4 - MVC/MVCAssignmentProject/ApplicationCore/obj/Debug/net8.0/refint/ApplicationCore.dll
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week4 - MVC/MVCAssignmentProject/ApplicationCore/obj/Debug/net8.0/ApplicationCore.pdb
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week4 - MVC/MVCAssignmentProject/ApplicationCore/obj/Debug/net8.0/ApplicationCore.genruntimeconfig.cache
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week4 - MVC/MVCAssignmentProject/ApplicationCore/obj/Debug/net8.0/ref/ApplicationCore.dll

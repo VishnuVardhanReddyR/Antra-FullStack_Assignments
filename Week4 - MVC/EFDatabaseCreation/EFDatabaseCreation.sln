@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFDatabaseCreation.Presentation", "EFDatabaseCreation.Presentation\EFDatabaseCreation.Presentation.csproj", "{243FF3EF-44E7-434F-A480-10AD2CCAC541}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFDatabaseCreation.Infrastructure", "EFDatabaseCreation.Infrastructure\EFDatabaseCreation.Infrastructure.csproj", "{BBD032F2-AE65-4ED0-A719-79110824EA66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFDatabaseCreation.Core", "EFDatabaseCreation.Core\EFDatabaseCreation.Core.csproj", "{17D7DC10-B6AB-4013-AE94-C74A79F62AE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{243FF3EF-44E7-434F-A480-10AD2CCAC541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{243FF3EF-44E7-434F-A480-10AD2CCAC541}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{243FF3EF-44E7-434F-A480-10AD2CCAC541}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{243FF3EF-44E7-434F-A480-10AD2CCAC541}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBD032F2-AE65-4ED0-A719-79110824EA66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBD032F2-AE65-4ED0-A719-79110824EA66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBD032F2-AE65-4ED0-A719-79110824EA66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBD032F2-AE65-4ED0-A719-79110824EA66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17D7DC10-B6AB-4013-AE94-C74A79F62AE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17D7DC10-B6AB-4013-AE94-C74A79F62AE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17D7DC10-B6AB-4013-AE94-C74A79F62AE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17D7DC10-B6AB-4013-AE94-C74A79F62AE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
