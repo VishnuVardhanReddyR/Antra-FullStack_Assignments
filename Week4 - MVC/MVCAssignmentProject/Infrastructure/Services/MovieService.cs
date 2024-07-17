@@ -73,26 +73,26 @@ public class MovieService: IMovieService
         foreach (var movie in result)
         {
             MovieResponseModel model = new MovieResponseModel();
-            model.Budget = (decimal)movie.Budget!;
+            model.Budget = movie.Budget;
             model.Title = movie.Title;
             model.Overview = movie.Overview;
-            model.Price = movie.Price != null ? movie.Price : (decimal?)0.04;
-            model.Revenue = (decimal)movie.Revenue!;
+            model.Price = movie.Price;
+            model.Revenue = movie.Revenue;
             model.BackdropUrl = movie.BackdropUrl;
             model.ImdbUrl = movie.ImdbUrl;
             model.OriginalLanguage = movie.OriginalLanguage;
             model.PosterUrl = movie.PosterUrl;
-            model.RunTime = (int)movie.RunTime!;
+            model.RunTime = movie.RunTime!;
             model.TagLine = movie.TagLine;
-            model.CreatedDate = (DateTime)movie.CreatedDate!;
-            model.UpdatedDate = (DateTime)movie.UpdatedDate!;
+            model.CreatedDate = movie.CreatedDate;
+            model.UpdatedDate = movie.UpdatedDate;
             model.CreatedBy = movie.CreatedBy;
             model.UpdatedBy = movie.UpdatedBy;
-            model.ReleaseDate = (DateTime)movie.ReleaseDate!;
+            model.ReleaseDate = movie.ReleaseDate;
             movieResponseModels.Add(model);
         }
 
-        return (movieResponseModels != null) ? movieResponseModels : null;
+        return movieResponseModels;
     }
 
     public MovieResponseModel GetMovie(int id)
