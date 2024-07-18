@@ -8,11 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c889811-4733-4224-94d7-4ea665e0ed67" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MVCAssignmentProject/Views/Shared/_MovieCard.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MVCAssignmentProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVCAssignmentProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCAssignmentProject/Views/Movie/index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/MVCAssignmentProject/Views/Movie/index.cshtml" afterDir="false" />
-    </list>
+    <list default="true" id="9c889811-4733-4224-94d7-4ea665e0ed67" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,6 +112,7 @@
       <workItem from="1721238262353" duration="601000" />
       <workItem from="1721245365615" duration="6335000" />
       <workItem from="1721255454413" duration="15260000" />
+      <workItem from="1721286858603" duration="186000" />
     </task>
     <servers />
   </component>
