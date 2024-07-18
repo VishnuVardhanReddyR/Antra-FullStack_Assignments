@@ -19,13 +19,13 @@ public class BaseRepository<T>: IRepository<T> where T: class
         return eMovieDbContext.SaveChanges();
     }
 
-    public int Delete(int id)
+    public int Delete(int id) 
     {
         var entity = GetById(id);
         if (entity != null)
         {
             eMovieDbContext.Set<T>().Remove(entity);
-            return 1;
+            return eMovieDbContext.SaveChanges();
         }
 
         return 0;

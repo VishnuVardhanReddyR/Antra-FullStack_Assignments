@@ -1,9 +1,13 @@
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.EntityFrameworkCore;
 
 namespace ApplicationCore.Models.ResponseModel;
 
 public class MovieResponseModel
 {
+    [Key]
+    public int Id { get; set; }
     [Column(TypeName = "nvarchar(2084)")]
     public string? BackdropUrl { get; set; }
     [Column(TypeName = "decimal(18,4)")]

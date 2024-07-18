@@ -1,0 +1,62 @@
+@model MovieResponseModel
+
+<h2>Edit Your Movie Details</h2>
+@if (Model != null)
+{
+    <form asp-action="Edit" asp-controller="Movie">
+        <input type="hidden" name="Id" value="@Model.Id"/>
+        <div class="my-3">
+            <label>Enter Movie  Title</label>
+            <input type="text" name="Title" value="@Model.Title" placeholder="Enter Movie Title" class="form-control"/>
+        </div>
+        <div class="my-3">
+            <label>Enter BackDropUrl</label>
+            <input type="text" name="BackdropUrl" value="@Model.BackdropUrl" placeholder="Enter BackDrop Url" class="form-control"/>
+        </div>
+        <div class="my-3">
+            <label>Enter Movie Budget</label>
+            <input type="text" name="Budget" value="@Model.Budget" class="form-control"/>
+        </div>
+        <div class="my-3">
+            <label>Enter Movie ImdbUrl</label>
+            <input type="text" name="ImdbUrl" value="@Model.ImdbUrl" class="form-control"/>
+        </div>
+        <div class="my-3">
+            <label>Enter Movie Original Language</label>
+            <input type="text" name="OriginalLanguage" value="@Model.OriginalLanguage" class="form-control"/>
+        </div>
+        <div class="my-3">
+            <label>Enter Movie Overview</label>
+            <input type="text" name="Overview" value="@Model.Overview" class="form-control"/>
+        </div>
+        <div class="my-3">
+            <label>Enter PosterUrl</label>
+            <input type="text" name="PosterUrl" value="@Model.PosterUrl" class="form-control"/>
+        </div>
+        <div class="my-3">
+            <label>Enter Price</label>
+            <input type="text" name="Price" value="@Model.Price" class="form-control"/>
+        </div>
+        <div class="my-3">
+            <label>Enter Revenue</label>
+            <input type="text" name="Revenue" value="@Model.Revenue" class="form-control"/>
+        </div>
+        <div class="my-3">
+            <label>Enter RunTime</label>
+            <input type="text" name="RunTime" value="@Model.RunTime" class="form-control"/>
+        </div>
+        <div class="my-3">
+            <label>Enter TagLine</label>
+            <input type="text" name="TagLine" value="@Model.TagLine" class="form-control"/>
+        </div>
+        <div class="my-3">
+            <label>Enter TmdbUrl</label>
+            <input type="text" name="TmdbUrl" value="@Model.ImdbUrl" class="form-control"/>
+        </div>
+        <input type="submit" value="Update" class="btn-primary btn"/>
+    </form>
+}
+else
+{
+    <h3>No Movie Found</h3>
+}

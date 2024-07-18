@@ -1,0 +1,47 @@
+1. Differences between .NET Framework and .NET Core:
+Platform Compatibility: .NET Framework is designed to work only on Windows, whereas .NET Core is cross-platform and can run on Windows, macOS, and Linux.
+Open Source: .NET Core is open-source, while .NET Framework is not.
+Performance: .NET Core generally offers better performance and is more lightweight compared to .NET Framework.
+Deployment: .NET Core supports side-by-side versioning, allowing multiple versions to coexist on the same machine. .NET Framework does not support this.
+Application Types: .NET Framework is used for desktop applications (Windows Forms, WPF) and ASP.NET web applications. .NET Core is used for web applications, microservices, and console applications.
+
+2. Difference between ASP.NET Core 8 and ASP.NET Core 5 project files, Startup.cs, and Program.cs
+Project Files: ASP.NET Core 8 introduces new features and improvements over ASP.NET Core 5, including performance enhancements and native AOT (Ahead-of-Time) compilation.
+Startup.cs and Program.cs: In ASP.NET Core 8, the Startup.cs file is often merged into Program.cs to simplify the setup. The CreateHostBuilder method is replaced with CreateBuilder for a more streamlined configuration.
+
+3. Dependency Injection and Different Scopes in ASP.NET Core
+Dependency Injection (DI): DI is a design pattern used to achieve Inversion of Control (IoC) between classes and their dependencies. ASP.NET Core has built-in support for DI.
+Scopes:
+Transient: Services are created each time they are requested.
+Singleton: A single instance is created and shared throughout the application’s lifetime.
+Scoped: Services are created once per request.
+
+4. Routing in ASP.NET Core
+Routing: Routing is the process of matching incoming HTTP requests to the appropriate controller actions.
+Configuration: Routing can be configured using the UseRouting and UseEndpoints methods in Program.cs.
+Convention-based Routing: Defined in Program.cs using route templates.
+Attribute-based Routing: Defined directly on controller actions using attributes like [Route].
+
+5. MVC Pattern and Its Advantages
+MVC Pattern: Stands for Model-View-Controller. It separates an application into three main components:
+Model: Represents the data and business logic.
+View: Represents the UI.
+Controller: Handles user input and updates the model and view.
+Advantages:
+Separation of Concerns: Easier to manage and maintain.
+Testability: Each component can be tested independently.
+Scalability: Supports large-scale applications.
+
+6. Passing Data Between Controller and View
+ViewBag: A dynamic object for passing data from controller to view.
+ViewData: A dictionary object for passing data.
+Models/ViewModels: Strongly-typed objects passed to views.
+
+7. Razor Syntax
+Razor Syntax: A markup syntax for embedding .NET code into webpages. It uses @ to transition from HTML to C#.
+Benefits: Simplifies the creation of dynamic web content and integrates seamlessly with ASP.NET Core.
+
+8. Model Binding in ASP.NET Core
+Model Binding: Automatically maps data from HTTP requests to action method parameters or model properties.
+Benefits: Simplifies data handling and reduces boilerplate code.
+

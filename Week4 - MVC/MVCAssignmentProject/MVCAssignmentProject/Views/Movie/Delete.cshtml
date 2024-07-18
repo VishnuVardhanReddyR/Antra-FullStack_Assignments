@@ -1,0 +1,17 @@
+@model MovieResponseModel
+
+@if (Model != null)
+{
+    <form asp-action="Delete" asp-controller="Movie" asp-route-movieId="@Model.Id">
+        <h3>Do you want to delete the following Movie?</h3>
+        <div class="my-3">
+            <label> Name = </label>@Model.Title
+        </div>
+        <input type="hidden" name="Id" value="@Model.Id" />
+        <button class="btn btn-danger">Delete</button>
+    </form>
+}
+else
+{
+    <h3>Movie Not Found</h3>
+}

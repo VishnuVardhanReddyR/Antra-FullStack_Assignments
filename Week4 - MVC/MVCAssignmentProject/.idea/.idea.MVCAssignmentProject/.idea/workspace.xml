@@ -9,7 +9,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c889811-4733-4224-94d7-4ea665e0ed67" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/ApplicationCore/Entities/Movie.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationCore/Entities/Movie.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApplicationCore/Contracts/Services/IAccountService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApplicationCore/Contracts/Services/IAdminService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApplicationCore/Contracts/Services/ICastService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApplicationCore/Contracts/Services/IGenreService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApplicationCore/Contracts/Services/IUserService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infrastructure/Repository/CastRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infrastructure/Repository/PurchaseRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infrastructure/Repository/ReportRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infrastructure/Repository/UserRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infrastructure/Services/AccountService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infrastructure/Services/AdminService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infrastructure/Services/CastService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infrastructure/Services/GenreService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infrastructure/Services/UserService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCAssignmentProject/Controllers/AccountController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCAssignmentProject/Controllers/AdminController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCAssignmentProject/Controllers/CastController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCAssignmentProject/Controllers/UserController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCAssignmentProject/Part1Solutions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCAssignmentProject/Views/Movie/Delete.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCAssignmentProject/Views/Movie/Edit.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MVCAssignmentProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVCAssignmentProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApplicationCore/Models/RequestModel/MovieRequestModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationCore/Models/RequestModel/MovieRequestModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApplicationCore/Models/ResponseModel/MovieResponseModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationCore/Models/ResponseModel/MovieResponseModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ApplicationCore/bin/Debug/net8.0/ApplicationCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationCore/bin/Debug/net8.0/ApplicationCore.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ApplicationCore/bin/Debug/net8.0/ApplicationCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationCore/bin/Debug/net8.0/ApplicationCore.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ApplicationCore/obj/Debug/net8.0/ApplicationCore.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationCore/obj/Debug/net8.0/ApplicationCore.AssemblyInfo.cs" afterDir="false" />
@@ -19,6 +42,9 @@
       <change beforePath="$PROJECT_DIR$/ApplicationCore/obj/Debug/net8.0/ApplicationCore.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationCore/obj/Debug/net8.0/ApplicationCore.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ApplicationCore/obj/Debug/net8.0/ref/ApplicationCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationCore/obj/Debug/net8.0/ref/ApplicationCore.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ApplicationCore/obj/Debug/net8.0/refint/ApplicationCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationCore/obj/Debug/net8.0/refint/ApplicationCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApplicationCore/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationCore/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApplicationCore/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationCore/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/Repository/BaseRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Repository/BaseRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Infrastructure/Services/MovieService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Services/MovieService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Infrastructure/bin/Debug/net8.0/ApplicationCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/bin/Debug/net8.0/ApplicationCore.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Infrastructure/bin/Debug/net8.0/ApplicationCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/bin/Debug/net8.0/ApplicationCore.pdb" afterDir="false" />
@@ -32,21 +58,29 @@
       <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Debug/net8.0/Infrastructure.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Debug/net8.0/Infrastructure.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Debug/net8.0/ref/Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Debug/net8.0/ref/Infrastructure.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Debug/net8.0/refint/Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Debug/net8.0/refint/Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCAssignmentProject/Controllers/MovieController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCAssignmentProject/Controllers/MovieController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCAssignmentProject/Views/Movie/index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/MVCAssignmentProject/Views/Movie/index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCAssignmentProject/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/MVCAssignmentProject/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCAssignmentProject/bin/Debug/net8.0/ApplicationCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVCAssignmentProject/bin/Debug/net8.0/ApplicationCore.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCAssignmentProject/bin/Debug/net8.0/ApplicationCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MVCAssignmentProject/bin/Debug/net8.0/ApplicationCore.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCAssignmentProject/bin/Debug/net8.0/Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVCAssignmentProject/bin/Debug/net8.0/Infrastructure.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCAssignmentProject/bin/Debug/net8.0/Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MVCAssignmentProject/bin/Debug/net8.0/Infrastructure.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCAssignmentProject/bin/Debug/net8.0/MVCAssignmentProject.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVCAssignmentProject/bin/Debug/net8.0/MVCAssignmentProject.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCAssignmentProject/bin/Debug/net8.0/MVCAssignmentProject.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MVCAssignmentProject/bin/Debug/net8.0/MVCAssignmentProject.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCAssignmentProject/bin/Debug/net8.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/MVCAssignmentProject/bin/Debug/net8.0/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCAssignmentProject/obj/Debug/net8.0/MVCAssignmentProject.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCAssignmentProject/obj/Debug/net8.0/MVCAssignmentProject.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCAssignmentProject/obj/Debug/net8.0/MVCAssignmentProject.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MVCAssignmentProject/obj/Debug/net8.0/MVCAssignmentProject.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCAssignmentProject/obj/Debug/net8.0/MVCAssignmentProject.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/MVCAssignmentProject/obj/Debug/net8.0/MVCAssignmentProject.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCAssignmentProject/obj/Debug/net8.0/MVCAssignmentProject.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MVCAssignmentProject/obj/Debug/net8.0/MVCAssignmentProject.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCAssignmentProject/obj/Debug/net8.0/MVCAssignmentProject.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVCAssignmentProject/obj/Debug/net8.0/MVCAssignmentProject.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCAssignmentProject/obj/Debug/net8.0/MVCAssignmentProject.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MVCAssignmentProject/obj/Debug/net8.0/MVCAssignmentProject.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCAssignmentProject/obj/Debug/net8.0/MVCAssignmentProject.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/MVCAssignmentProject/obj/Debug/net8.0/MVCAssignmentProject.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCAssignmentProject/obj/Debug/net8.0/ref/MVCAssignmentProject.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVCAssignmentProject/obj/Debug/net8.0/ref/MVCAssignmentProject.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCAssignmentProject/obj/Debug/net8.0/refint/MVCAssignmentProject.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVCAssignmentProject/obj/Debug/net8.0/refint/MVCAssignmentProject.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCAssignmentProject/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/MVCAssignmentProject/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCAssignmentProject/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/MVCAssignmentProject/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,12 +122,16 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "HotReloadSettingsPage",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
       "sqlserver.localdb",
       "mysql"
+    ],
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "TEXT"
     ],
     "rider.external.source.directories": [
       "/Users/vishnu/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache",
@@ -146,6 +184,7 @@
       <workItem from="1721235738713" duration="2423000" />
       <workItem from="1721238262353" duration="601000" />
       <workItem from="1721245365615" duration="6335000" />
+      <workItem from="1721255454413" duration="13454000" />
     </task>
     <servers />
   </component>

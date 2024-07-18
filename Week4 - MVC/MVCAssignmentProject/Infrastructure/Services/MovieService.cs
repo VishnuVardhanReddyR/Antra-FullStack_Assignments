@@ -73,6 +73,7 @@ public class MovieService: IMovieService
         foreach (var movie in result)
         {
             MovieResponseModel model = new MovieResponseModel();
+            model.Id = movie.Id;
             model.Budget = movie.Budget;
             model.Title = movie.Title;
             model.Overview = movie.Overview;
@@ -101,6 +102,7 @@ public class MovieService: IMovieService
         if (movie != null)
             return new MovieResponseModel()
             {
+                Id = movie.Id,
                 Budget = movie.Budget,
                 Title = movie.Title,
                 Overview = movie.Overview,

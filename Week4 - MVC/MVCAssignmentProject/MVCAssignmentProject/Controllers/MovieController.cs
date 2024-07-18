@@ -36,4 +36,48 @@ public class MovieController : Controller
 
         return View(model);
     }
+
+    [HttpGet]
+    public IActionResult Edit(int movieId)
+    {
+        var result = _service.GetMovie(movieId);
+        return View(result);
+    }
+
+    [HttpPost]
+    public IActionResult Edit(MovieResponseModel model)
+    {
+        if (ModelState.IsValid)
+        {
+            MovieRequestModel movie = new MovieRequestModel();
+            movie.Budget = model.Budget;
+            movie.Title = model.Title;
+            movie.Overview = model.Overview;
+            movie.Price = model.Price;
+            movie.Revenue = model.Revenue;
+            movie.BackdropUrl = model.BackdropUrl;
+            movie.ImdbUrl = model.ImdbUrl;
+            movie.OriginalLanguage = model.OriginalLanguage;
+            movie.PosterUrl = model.PosterUrl;
+            movie.RunTime = model.RunTime;
+            movie.TagLine = model.TagLine;
+            _service.UpdateMovie(movie, model.Id);
+            return RedirectToAction("Index");
+        }
+        return View(model);
+    }
+
+    [HttpGet]
+    public IActionResult Delete(int movieId)
+    {
+        var result = _service.GetMovie(movieId);
+        return View(result);
+    }
+
+    [HttpPost]
+    public IActionResult Delete(MovieResponseModel model)
+    {
+        _service.DeleteMovie(model.Id);
+        return RedirectToAction("Index");
+    }
 }
