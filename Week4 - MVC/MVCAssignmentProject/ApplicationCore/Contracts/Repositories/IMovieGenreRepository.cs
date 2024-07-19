@@ -1,6 +1,8 @@
+using ApplicationCore.Entities;
+
 namespace ApplicationCore.Interfaces.Repositories;
 
-public interface IMovieGenreRepository
+public interface IMovieGenreRepository: IRepository<MovieGenre>
 {
     
 }

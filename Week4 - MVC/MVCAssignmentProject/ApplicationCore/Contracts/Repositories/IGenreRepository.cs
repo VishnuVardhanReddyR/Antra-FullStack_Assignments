@@ -1,6 +1,8 @@
+using ApplicationCore.Entities;
+
 namespace ApplicationCore.Interfaces.Repositories;
 
-public interface IGenreRepository
+public interface IGenreRepository: IRepository<Genre>
 {
     
 }

@@ -1,11 +1,9 @@
-using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace ApplicationCore.Entities;
+namespace ApplicationCore.Models.RequestModel;
 
-public class Genre
+public class GenreRequestModel
 {
-    public int Id { get; set; }
     [Column(TypeName = "nvarchar(24)")]
     public string? Name { get; set; }
 }

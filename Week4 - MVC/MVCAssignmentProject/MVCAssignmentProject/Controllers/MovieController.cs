@@ -17,6 +17,7 @@ public class MovieController : Controller
     public IActionResult Index()
     {
         var movies = _service.GetAllMovies();
+        // ViewBag["movies"] = movies;
         return View(movies);
     }
     [HttpGet]
@@ -79,5 +80,19 @@ public class MovieController : Controller
     {
         _service.DeleteMovie(model.Id);
         return RedirectToAction("Index");
+    }
+
+    [HttpGet]
+    public IActionResult GrosserFilter()
+    {
+        var movies = _service.GetHighestGrossingMovies();
+        // ViewBag["movies"] = movies;
+        return View("index", movies);
+    }
+
+    [HttpGet]
+    public IActionResult Genre()
+    {
+        return RedirectToAction("Index", "Genre", "Index");
     }
 }

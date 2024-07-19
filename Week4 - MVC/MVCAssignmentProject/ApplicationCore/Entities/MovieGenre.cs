@@ -1,13 +1,16 @@
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.EntityFrameworkCore;
 
 namespace ApplicationCore.Entities;
 
+[PrimaryKey(nameof(GenreId), nameof(MovieId))]
 public class MovieGenre
 {
-    [Required]
+    [Key, Column(Order = 0)]
     public int GenreId { get; set; }
     public Genre Genre { get; set; }
-    [Required]
+    [Key, Column(Order = 1)]
     public int MovieId { get; set; }
     public Movie Movie { get; set; }
 }

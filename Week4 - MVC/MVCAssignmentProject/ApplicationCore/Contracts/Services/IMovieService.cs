@@ -10,4 +10,5 @@ public interface IMovieService
     int DeleteMovie(int id);
     IEnumerable<MovieResponseModel> GetAllMovies();
     MovieResponseModel GetMovie(int id);
+    IEnumerable<MovieResponseModel> GetHighestGrossingMovies();
 }

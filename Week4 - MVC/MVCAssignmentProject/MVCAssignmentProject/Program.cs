@@ -16,6 +16,8 @@ builder.Services.AddDbContext<EMovieDbContext>(options =>
 
 builder.Services.AddScoped<IMovieService, MovieService>();
 builder.Services.AddScoped<IMovieRepository, MovieRepository>();
+builder.Services.AddScoped<IGenreRepository, GenreRepository>();
+builder.Services.AddScoped<IGenreService, GenreService>();
 
 var app = builder.Build();
 

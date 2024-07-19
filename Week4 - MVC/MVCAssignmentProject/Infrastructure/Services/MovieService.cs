@@ -9,10 +9,12 @@ namespace Infrastructure.Services;
 public class MovieService: IMovieService
 {
     private readonly IMovieRepository _movieRepository;
+    private readonly IMovieGenreRepository _movieGenreRepository;
 
-    public MovieService(IMovieRepository movieRepository)
+    public MovieService(IMovieRepository movieRepository, IMovieGenreRepository movieGenreRepository)
     {
         _movieRepository = movieRepository;
+        _movieGenreRepository = movieGenreRepository;
     }
     public int AddMovie(MovieRequestModel model)
     {
@@ -34,6 +36,7 @@ public class MovieService: IMovieService
         movie.CreatedBy = "current user";
         movie.UpdatedBy = "current user";
         movie.ReleaseDate = new DateTime().AddDays(10);
+        
         return _movieRepository.Insert(movie);
     }
 
@@ -121,5 +124,36 @@ public class MovieService: IMovieService
                 ReleaseDate = movie.ReleaseDate
             };
         return null;
+    }
+
+    public IEnumerable<MovieResponseModel> GetHighestGrossingMovies()
+    {
+        var result = _movieRepository.GetHighestGrossingMovies();
+        List<MovieResponseModel> movieResponseModels = new List<MovieResponseModel>();
+
+        foreach (var movie in result)
+        {
+            MovieResponseModel model = new MovieResponseModel();
+            model.Id = movie.Id;
+            model.Budget = movie.Budget;
+            model.Title = movie.Title;
+            model.Overview = movie.Overview;
+            model.Price = movie.Price;
+            model.Revenue = movie.Revenue;
+            model.BackdropUrl = movie.BackdropUrl;
+            model.ImdbUrl = movie.ImdbUrl;
+            model.OriginalLanguage = movie.OriginalLanguage;
+            model.PosterUrl = movie.PosterUrl;
+            model.RunTime = movie.RunTime!;
+            model.TagLine = movie.TagLine;
+            model.CreatedDate = movie.CreatedDate;
+            model.UpdatedDate = movie.UpdatedDate;
+            model.CreatedBy = movie.CreatedBy;
+            model.UpdatedBy = movie.UpdatedBy;
+            model.ReleaseDate = movie.ReleaseDate;
+            movieResponseModels.Add(model);
+        }
+
+        return movieResponseModels;
     }
 }

@@ -5,13 +5,13 @@ namespace ApplicationCore.Entities;
 
 public class Cast
 {
-    [Key]
     public int Id { get; set; }
-    [Required]
+    [Column(TypeName = "nvarchar(MAX)")]
     public string Gender { get; set; }
-    [MaxLength(128)]
+    [Column(TypeName = "nvarchar(128)")]
     public string Name { get; set; }
-    [MaxLength(2084)]
+    [Column(TypeName = "nvarchar(2084)")]
     public string ProfilePath { get; set; }
+    [Column(TypeName = "nvarchar(MAX)")]
     public string TmdbUrl { get; set; } 
 }
