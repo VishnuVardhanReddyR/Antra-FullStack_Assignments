@@ -9,12 +9,10 @@ namespace Infrastructure.Services;
 public class MovieService: IMovieService
 {
     private readonly IMovieRepository _movieRepository;
-    private readonly IMovieGenreRepository _movieGenreRepository;
 
-    public MovieService(IMovieRepository movieRepository, IMovieGenreRepository movieGenreRepository)
+    public MovieService(IMovieRepository movieRepository)
     {
         _movieRepository = movieRepository;
-        _movieGenreRepository = movieGenreRepository;
     }
     public int AddMovie(MovieRequestModel model)
     {
