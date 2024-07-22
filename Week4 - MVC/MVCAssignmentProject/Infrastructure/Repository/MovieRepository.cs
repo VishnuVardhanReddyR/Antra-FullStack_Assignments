@@ -1,6 +1,7 @@
 using ApplicationCore.Entities;
 using ApplicationCore.Interfaces.Repositories;
 using Infrastructure.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Repository;
 
@@ -12,7 +13,7 @@ public class MovieRepository: BaseRepository<Movie>, IMovieRepository
     {
         _eMovieDbContext = eMovieDbContext;
     }
-
+    
     public IEnumerable<Movie> GetHighestGrossingMovies()
     {
         return _eMovieDbContext.Movies

@@ -1,28 +1,37 @@
+using System.Diagnostics;
 using ApplicationCore.Contracts.Services;
+using ApplicationCore.Entities;
 using ApplicationCore.Models.RequestModel;
 using ApplicationCore.Models.ResponseModel;
+using Infrastructure.Repository;
+using Infrastructure.Services;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace MVCAssignmentProject.Controllers;
 
 public class MovieController : Controller
 {
     private readonly IMovieService _service;
+    private readonly IGenreService _genreService;
 
-    public MovieController(IMovieService service)
+    public MovieController(IMovieService service, IGenreService genreService)
     {
         _service = service;
+        _genreService = genreService;
     }
     // GET
     public IActionResult Index()
     {
         var movies = _service.GetAllMovies();
-        // ViewBag["movies"] = movies;
+        var result = _genreService.GetAllGenres().Select(x => new { Key = x.Id, Value = x.Name });
+        ViewBag.GenresList = new SelectList(result, "Key", "Value");
         return View(movies);
     }
     [HttpGet]
-    public IActionResult Create()
-    {
+    public IActionResult Create(){
+    
         return View();
     }
 
@@ -41,8 +50,8 @@ public class MovieController : Controller
     [HttpGet]
     public IActionResult Edit(int movieId)
     {
-        var result = _service.GetMovie(movieId);
-        return View(result);
+        var model = _service.GetMovie(movieId);
+        return View(model);
     }
 
     [HttpPost]
