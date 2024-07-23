@@ -11,4 +11,6 @@ public interface IMovieService
     IEnumerable<MovieResponseModel> GetAllMovies();
     MovieResponseModel GetMovie(int id);
     IEnumerable<MovieResponseModel> GetHighestGrossingMovies();
+
+    IEnumerable<MovieResponseModel> GetMoviesByGenre(int id);
 }

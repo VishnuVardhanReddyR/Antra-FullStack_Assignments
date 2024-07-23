@@ -15,6 +15,7 @@ public class MovieController : Controller
 {
     private readonly IMovieService _service;
     private readonly IGenreService _genreService;
+    private int GenreId; 
 
     public MovieController(IMovieService service, IGenreService genreService)
     {
@@ -104,4 +105,19 @@ public class MovieController : Controller
     {
         return RedirectToAction("Index", "Genre", "Index");
     }
+
+    [HttpPost]
+    public IActionResult MoviesByGenre(int GenreId)
+    {
+        var movies = _service.GetMoviesByGenre(GenreId);
+        return View("index", movies);
+    }
+
+    [HttpGet]
+    public IActionResult MovieDetail(int movieId)
+    {
+        var movie = _service.GetMovie(movieId);
+        return View(movie);
+    }
+    
 }

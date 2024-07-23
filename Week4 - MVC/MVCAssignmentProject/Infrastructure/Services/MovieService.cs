@@ -124,6 +124,25 @@ public class MovieService: IMovieService
         return null;
     }
 
+    public IEnumerable<MovieResponseModel> GetMoviesByGenre(int id)
+    {
+        var movies = _movieRepository.GetMoviesByGenre(id);
+        var list = new List<MovieResponseModel>();
+        foreach (var movie in movies)
+        {
+            var model = new MovieResponseModel();
+            model.Overview = movie.Overview;
+            model.ReleaseDate = movie.ReleaseDate;
+            model.Title = movie.Title;
+            model.PosterUrl = movie.PosterUrl;
+            model.Budget = movie.Budget;
+            model.Revenue = movie.Revenue;
+            model.ReleaseDate = movie.ReleaseDate;
+            list.Add(model);
+        }
+        return list;
+    }
+
     public IEnumerable<MovieResponseModel> GetHighestGrossingMovies()
     {
         var result = _movieRepository.GetHighestGrossingMovies();

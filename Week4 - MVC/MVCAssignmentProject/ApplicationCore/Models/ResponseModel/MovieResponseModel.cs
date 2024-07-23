@@ -44,4 +44,7 @@ public class MovieResponseModel
     [Column(TypeName = "datetime2")]
     public DateTime? UpdatedDate { get; set; }
     
+    public int GenreId { get; set; }
+    [Column(TypeName = "nvarchar(24)")]
+    public string? GenreName { get; set; }
 }

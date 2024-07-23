@@ -20,4 +20,15 @@ public class MovieRepository: BaseRepository<Movie>, IMovieRepository
             .OrderByDescending(m => m.Revenue)
             .ToList();
     }
+
+    public IEnumerable<Movie> GetMoviesByGenre(int id)
+    {
+        var query = from movie in _eMovieDbContext.Movies
+            join movieGenres in _eMovieDbContext.MovieGenres on movie.Id equals movieGenres.MovieId
+            join genres in _eMovieDbContext.Genres on movieGenres.GenreId equals genres.Id
+            where genres.Id == id
+            select movie;
+        return query.ToList();
+    }
+
 }
