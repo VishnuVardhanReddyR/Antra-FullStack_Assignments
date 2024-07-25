@@ -1,0 +1,12 @@
+﻿ services:
+  webapidemo:
+    image: webapidemo
+    build:
+      context: .
+      dockerfile: WebAPIDemo/Dockerfile
+
+  webapidemo-1:
+    image: webapidemo-1
+    build:
+      context: .
+      dockerfile: WebAPIDemo/Dockerfile

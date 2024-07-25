@@ -117,7 +117,7 @@ public class MovieController : Controller
     public IActionResult MovieDetail(int movieId)
     {
         var movie = _service.GetMovie(movieId);
-        return View(movie);
+        return View();
     }
     
 }

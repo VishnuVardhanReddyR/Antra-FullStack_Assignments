@@ -1,0 +1,40 @@
+# This is a generated file. Not intended for manual editing.
+services:
+  webapidemo:
+    build:
+      context: "/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/WebAPIDemo"
+      dockerfile: "WebAPIDemo/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/WebAPIDemo.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "webapidemo:dev"
+    ports: []
+    volumes:
+    - "/Users/vishnu/.nuget/packages:/home/app/.nuget/packages"
+    - "/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/WebAPIDemo/WebAPIDemo:/app:rw"
+    - "/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/WebAPIDemo:/src:rw"
+    working_dir: "/app"
+  webapidemo-1:
+    build:
+      context: "/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/WebAPIDemo"
+      dockerfile: "WebAPIDemo/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/WebAPIDemo.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "webapidemo-1:dev"
+    ports: []
+    volumes:
+    - "/Users/vishnu/.nuget/packages:/home/app/.nuget/packages"
+    - "/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/WebAPIDemo/WebAPIDemo:/app:rw"
+    - "/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/WebAPIDemo:/src:rw"
+    working_dir: "/app"
