@@ -9,27 +9,129 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c889811-4733-4224-94d7-4ea665e0ed67" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/WebAPI/WebAPI/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/WebAPI/WebAPI/obj/Debug/net8.0/WebAPI.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/WebAPI/WebAPI/obj/Debug/net8.0/WebAPI.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/WebAPI/WebAPI/obj/Debug/net8.0/WebAPI.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/WebAPI/WebAPI/obj/Debug/net8.0/WebAPI.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/WebAPI/WebAPI/obj/Debug/net8.0/WebAPI.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/WebAPI/WebAPI/obj/WebAPI.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/WebAPI/WebAPI/obj/WebAPI.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/WebAPI/WebAPI/obj/WebAPI.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/WebAPI/WebAPI/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/WebAPI/WebAPI/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/WebAPI/WebAPI/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/WebAPI/WebAPI/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MVCAssignmentProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVCAssignmentProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApplicationCore/obj/Debug/net8.0/ApplicationCore.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationCore/obj/Debug/net8.0/ApplicationCore.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApplicationCore/obj/Debug/net8.0/ApplicationCore.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationCore/obj/Debug/net8.0/ApplicationCore.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Debug/net8.0/Infrastructure.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Debug/net8.0/Infrastructure.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Debug/net8.0/Infrastructure.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Debug/net8.0/Infrastructure.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCAssignmentProject/Controllers/MovieController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCAssignmentProject/Controllers/MovieController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCAssignmentProject/obj/Debug/net8.0/MVCAssignmentProject.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCAssignmentProject/obj/Debug/net8.0/MVCAssignmentProject.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCAssignmentProject/obj/Debug/net8.0/MVCAssignmentProject.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MVCAssignmentProject/obj/Debug/net8.0/MVCAssignmentProject.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI.ApplicationCore/CustomerAPI.ApplicationCore.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI.ApplicationCore/Entities/Customer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI.ApplicationCore/Entities/CustomerAddress.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI.ApplicationCore/obj/CustomerAPI.ApplicationCore.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI.ApplicationCore/obj/CustomerAPI.ApplicationCore.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI.ApplicationCore/obj/CustomerAPI.ApplicationCore.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI.ApplicationCore/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI.ApplicationCore/obj/Debug/net8.0/CustomerAPI.ApplicationCore.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI.ApplicationCore/obj/Debug/net8.0/CustomerAPI.ApplicationCore.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI.ApplicationCore/obj/Debug/net8.0/CustomerAPI.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI.ApplicationCore/obj/Debug/net8.0/CustomerAPI.ApplicationCore.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI.ApplicationCore/obj/Debug/net8.0/CustomerAPI.ApplicationCore.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI.ApplicationCore/obj/Debug/net8.0/CustomerAPI.ApplicationCore.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI.ApplicationCore/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI.ApplicationCore/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI.ApplicationCore/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI.ApplicationCore/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI.ApplicationCore/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI.Infrastructure/CustomerAPI.Infrastructure.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI.Infrastructure/Data/CustomerDbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI.Infrastructure/obj/CustomerAPI.Infrastructure.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI.Infrastructure/obj/CustomerAPI.Infrastructure.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI.Infrastructure/obj/CustomerAPI.Infrastructure.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI.Infrastructure/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI.Infrastructure/obj/Debug/net8.0/CustomerAPI.Infrastructure.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI.Infrastructure/obj/Debug/net8.0/CustomerAPI.Infrastructure.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI.Infrastructure/obj/Debug/net8.0/CustomerAPI.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI.Infrastructure/obj/Debug/net8.0/CustomerAPI.Infrastructure.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI.Infrastructure/obj/Debug/net8.0/CustomerAPI.Infrastructure.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI.Infrastructure/obj/Debug/net8.0/CustomerAPI.Infrastructure.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI.Infrastructure/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI.Infrastructure/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI.Infrastructure/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI.Infrastructure/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI.Infrastructure/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI/CustomerAPI.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI/CustomerAPI.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI/obj/CustomerAPI.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI/obj/CustomerAPI.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI/obj/CustomerAPI.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI/obj/Debug/net8.0/CustomerAPI.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI/obj/Debug/net8.0/CustomerAPI.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI/obj/Debug/net8.0/CustomerAPI.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI/obj/Debug/net8.0/CustomerAPI.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI/obj/Debug/net8.0/CustomerAPI.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI/obj/Debug/net8.0/CustomerAPI.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/CustomerAPI/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI.ApplicationCore/Class1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI.ApplicationCore/ProductAPI.ApplicationCore.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI.ApplicationCore/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI.ApplicationCore/obj/Debug/net8.0/ProductAPI.ApplicationCore.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI.ApplicationCore/obj/Debug/net8.0/ProductAPI.ApplicationCore.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI.ApplicationCore/obj/Debug/net8.0/ProductAPI.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI.ApplicationCore/obj/Debug/net8.0/ProductAPI.ApplicationCore.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI.ApplicationCore/obj/Debug/net8.0/ProductAPI.ApplicationCore.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI.ApplicationCore/obj/Debug/net8.0/ProductAPI.ApplicationCore.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI.ApplicationCore/obj/ProductAPI.ApplicationCore.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI.ApplicationCore/obj/ProductAPI.ApplicationCore.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI.ApplicationCore/obj/ProductAPI.ApplicationCore.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI.ApplicationCore/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI.ApplicationCore/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI.ApplicationCore/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI.ApplicationCore/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI.ApplicationCore/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI.Infrastructure/Class1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI.Infrastructure/ProductAPI.Infrastructure.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI.Infrastructure/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI.Infrastructure/obj/Debug/net8.0/ProductAPI.Infrastructure.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI.Infrastructure/obj/Debug/net8.0/ProductAPI.Infrastructure.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI.Infrastructure/obj/Debug/net8.0/ProductAPI.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI.Infrastructure/obj/Debug/net8.0/ProductAPI.Infrastructure.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI.Infrastructure/obj/Debug/net8.0/ProductAPI.Infrastructure.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI.Infrastructure/obj/Debug/net8.0/ProductAPI.Infrastructure.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI.Infrastructure/obj/ProductAPI.Infrastructure.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI.Infrastructure/obj/ProductAPI.Infrastructure.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI.Infrastructure/obj/ProductAPI.Infrastructure.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI.Infrastructure/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI.Infrastructure/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI.Infrastructure/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI.Infrastructure/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI.Infrastructure/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI/ProductAPI.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI/ProductAPI.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI/obj/Debug/net8.0/ProductAPI.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI/obj/Debug/net8.0/ProductAPI.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI/obj/Debug/net8.0/ProductAPI.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI/obj/Debug/net8.0/ProductAPI.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI/obj/Debug/net8.0/ProductAPI.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI/obj/Debug/net8.0/ProductAPI.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI/obj/ProductAPI.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI/obj/ProductAPI.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI/obj/ProductAPI.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week5-WebAPI/ECommerceMSApp/ProductAPI/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week5-WebAPI/WebAPIDemo/.idea/.idea.WebAPIDemo/Docker/docker-compose.generated.override.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week5-WebAPI/WebAPIDemo/.idea/.idea.WebAPIDemo/Docker/docker-compose.generated.override.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week5-WebAPI/WebAPIDemo/WebAPIDemo/bin/Debug/net8.0/WebAPIDemo.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week5-WebAPI/WebAPIDemo/WebAPIDemo/bin/Debug/net8.0/WebAPIDemo.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week5-WebAPI/WebAPIDemo/WebAPIDemo/bin/Debug/net8.0/WebAPIDemo.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week5-WebAPI/WebAPIDemo/WebAPIDemo/bin/Debug/net8.0/WebAPIDemo.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week5-WebAPI/WebAPIDemo/WebAPIDemo/obj/Debug/net8.0/WebAPIDemo.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week5-WebAPI/WebAPIDemo/WebAPIDemo/obj/Debug/net8.0/WebAPIDemo.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week5-WebAPI/WebAPIDemo/WebAPIDemo/obj/Debug/net8.0/WebAPIDemo.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week5-WebAPI/WebAPIDemo/WebAPIDemo/obj/Debug/net8.0/WebAPIDemo.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week5-WebAPI/WebAPIDemo/WebAPIDemo/obj/Debug/net8.0/WebAPIDemo.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week5-WebAPI/WebAPIDemo/WebAPIDemo/obj/Debug/net8.0/WebAPIDemo.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week5-WebAPI/WebAPIDemo/WebAPIDemo/obj/Debug/net8.0/WebAPIDemo.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week5-WebAPI/WebAPIDemo/WebAPIDemo/obj/Debug/net8.0/WebAPIDemo.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week5-WebAPI/WebAPIDemo/WebAPIDemo/obj/Debug/net8.0/WebAPIDemo.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week5-WebAPI/WebAPIDemo/WebAPIDemo/obj/Debug/net8.0/WebAPIDemo.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week5-WebAPI/WebAPIDemo/WebAPIDemo/obj/Debug/net8.0/ref/WebAPIDemo.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week5-WebAPI/WebAPIDemo/WebAPIDemo/obj/Debug/net8.0/ref/WebAPIDemo.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week5-WebAPI/WebAPIDemo/WebAPIDemo/obj/Debug/net8.0/refint/WebAPIDemo.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week5-WebAPI/WebAPIDemo/WebAPIDemo/obj/Debug/net8.0/refint/WebAPIDemo.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week5-WebAPI/WebAPIDemo/WebAPIDemo/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week5-WebAPI/WebAPIDemo/WebAPIDemo/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week5-WebAPI/WebAPIDemo/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week5-WebAPI/WebAPIDemo/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,6 +252,7 @@
       <workItem from="1721665568264" duration="8254000" />
       <workItem from="1721679244586" duration="12887000" />
       <workItem from="1721783114404" duration="741000" />
+      <workItem from="1721947780605" duration="27000" />
     </task>
     <servers />
   </component>

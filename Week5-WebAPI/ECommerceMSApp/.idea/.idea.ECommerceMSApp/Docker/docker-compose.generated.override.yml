@@ -1,0 +1,21 @@
+# This is a generated file. Not intended for manual editing.
+services:
+  customerapi:
+    build:
+      context: "/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp"
+      dockerfile: "CustomerAPI/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/CustomerAPI.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "customerapi:dev"
+    ports: []
+    volumes:
+    - "/Users/vishnu/.nuget/packages:/home/app/.nuget/packages"
+    - "/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/CustomerAPI:/app:rw"
+    - "/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp:/src:rw"
+    working_dir: "/app"

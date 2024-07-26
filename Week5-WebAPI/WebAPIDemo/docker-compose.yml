@@ -4,9 +4,5 @@
     build:
       context: .
       dockerfile: WebAPIDemo/Dockerfile
-
-  webapidemo-1:
-    image: webapidemo-1
-    build:
-      context: .
-      dockerfile: WebAPIDemo/Dockerfile
+    ports:
+      - 45123:8080
