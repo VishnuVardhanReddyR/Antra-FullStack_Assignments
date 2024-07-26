@@ -19,7 +19,7 @@ public class CustomerServiceAsync: ICustomerServiceAsync
     }
     public async Task<int> InsertCustomerAsync(CustomerRequestModel model)
     {
-        Customer c = new Customer();
+        Customer c = _mapper.Map<Customer>(model);
         return await _customerRepositoryAsync.InsertAsync(c);
     }
 
