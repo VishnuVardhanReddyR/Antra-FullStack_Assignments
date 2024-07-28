@@ -1,0 +1,12 @@
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/OrderAPI.ApplicationCore/bin/Debug/net8.0/OrderAPI.ApplicationCore.deps.json
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/OrderAPI.ApplicationCore/bin/Debug/net8.0/OrderAPI.ApplicationCore.dll
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/OrderAPI.ApplicationCore/bin/Debug/net8.0/OrderAPI.ApplicationCore.pdb
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/OrderAPI.ApplicationCore/obj/Debug/net8.0/OrderAPI.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/OrderAPI.ApplicationCore/obj/Debug/net8.0/OrderAPI.ApplicationCore.AssemblyInfoInputs.cache
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/OrderAPI.ApplicationCore/obj/Debug/net8.0/OrderAPI.ApplicationCore.AssemblyInfo.cs
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/OrderAPI.ApplicationCore/obj/Debug/net8.0/OrderAPI.ApplicationCore.csproj.CoreCompileInputs.cache
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/OrderAPI.ApplicationCore/obj/Debug/net8.0/OrderAPI.ApplicationCore.sourcelink.json
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/OrderAPI.ApplicationCore/obj/Debug/net8.0/OrderAPI.ApplicationCore.dll
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/OrderAPI.ApplicationCore/obj/Debug/net8.0/refint/OrderAPI.ApplicationCore.dll
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/OrderAPI.ApplicationCore/obj/Debug/net8.0/OrderAPI.ApplicationCore.pdb
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/OrderAPI.ApplicationCore/obj/Debug/net8.0/ref/OrderAPI.ApplicationCore.dll

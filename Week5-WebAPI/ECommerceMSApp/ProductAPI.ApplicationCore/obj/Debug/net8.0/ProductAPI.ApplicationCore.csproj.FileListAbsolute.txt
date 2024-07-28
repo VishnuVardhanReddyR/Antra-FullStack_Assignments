@@ -1,0 +1,15 @@
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/ProductAPI.ApplicationCore/bin/Debug/net8.0/ProductAPI.ApplicationCore.deps.json
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/ProductAPI.ApplicationCore/bin/Debug/net8.0/ProductAPI.ApplicationCore.runtimeconfig.json
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/ProductAPI.ApplicationCore/bin/Debug/net8.0/ProductAPI.ApplicationCore.dll
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/ProductAPI.ApplicationCore/bin/Debug/net8.0/ProductAPI.ApplicationCore.pdb
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/ProductAPI.ApplicationCore/obj/Debug/net8.0/ProductAPI.ApplicationCore.csproj.AssemblyReference.cache
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/ProductAPI.ApplicationCore/obj/Debug/net8.0/ProductAPI.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/ProductAPI.ApplicationCore/obj/Debug/net8.0/ProductAPI.ApplicationCore.AssemblyInfoInputs.cache
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/ProductAPI.ApplicationCore/obj/Debug/net8.0/ProductAPI.ApplicationCore.AssemblyInfo.cs
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/ProductAPI.ApplicationCore/obj/Debug/net8.0/ProductAPI.ApplicationCore.csproj.CoreCompileInputs.cache
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/ProductAPI.ApplicationCore/obj/Debug/net8.0/ProductAPI.ApplicationCore.sourcelink.json
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/ProductAPI.ApplicationCore/obj/Debug/net8.0/ProductAPI.ApplicationCore.dll
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/ProductAPI.ApplicationCore/obj/Debug/net8.0/refint/ProductAPI.ApplicationCore.dll
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/ProductAPI.ApplicationCore/obj/Debug/net8.0/ProductAPI.ApplicationCore.pdb
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/ProductAPI.ApplicationCore/obj/Debug/net8.0/ProductAPI.ApplicationCore.genruntimeconfig.cache
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/ProductAPI.ApplicationCore/obj/Debug/net8.0/ref/ProductAPI.ApplicationCore.dll

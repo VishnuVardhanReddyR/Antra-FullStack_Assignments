@@ -6,3 +6,11 @@
       dockerfile: CustomerAPI/Dockerfile
     ports:
       - "50123:8080"
+
+  productapi:
+    image: productapi
+    build:
+      context: .
+      dockerfile: ProductAPI/Dockerfile
+    ports:
+      - "50124:8080"

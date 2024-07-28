@@ -1596,6 +1596,21 @@
             "rid": "win"
           }
         }
+      },
+      "ProductAPI.ApplicationCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "AutoMapper": "13.0.1",
+          "Microsoft.EntityFrameworkCore": "9.0.0-preview.6.24327.4",
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.0-preview.6.24327.4"
+        },
+        "compile": {
+          "bin/placeholder/ProductAPI.ApplicationCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProductAPI.ApplicationCore.dll": {}
+        }
       }
     }
   },
@@ -4729,6 +4744,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "ProductAPI.ApplicationCore/1.0.0": {
+      "type": "project",
+      "path": "../ProductAPI.ApplicationCore/ProductAPI.ApplicationCore.csproj",
+      "msbuildProject": "../ProductAPI.ApplicationCore/ProductAPI.ApplicationCore.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4737,7 +4757,8 @@
       "Microsoft.EntityFrameworkCore >= 9.0.0-preview.6.24327.4",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.0-preview.6.24327.4",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.0-preview.6.24327.4",
-      "Microsoft.EntityFrameworkCore.Tools >= 9.0.0-preview.6.24327.4"
+      "Microsoft.EntityFrameworkCore.Tools >= 9.0.0-preview.6.24327.4",
+      "ProductAPI.ApplicationCore >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4764,7 +4785,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/ProductAPI.ApplicationCore/ProductAPI.ApplicationCore.csproj": {
+              "projectPath": "/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/ProductAPI.ApplicationCore/ProductAPI.ApplicationCore.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

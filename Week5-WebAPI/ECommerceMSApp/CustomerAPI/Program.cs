@@ -14,8 +14,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<CustomerDbContext>(option =>
 {
-    // option.UseSqlServer(builder.Configuration.GetConnectionString("CustomerDb"));
-    option.UseSqlServer(Environment.GetEnvironmentVariable("CustomerDB"));
+    option.UseSqlServer(builder.Configuration.GetConnectionString("CustomerDb"));
+    // option.UseSqlServer(Environment.GetEnvironmentVariable("CustomerDB"));
 });
 builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.AddScoped<ICustomerRepositoryAsync, CustomerRepositoryAsync>();

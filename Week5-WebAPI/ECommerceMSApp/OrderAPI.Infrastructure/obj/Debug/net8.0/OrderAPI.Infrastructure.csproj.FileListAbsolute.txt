@@ -1,0 +1,12 @@
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/OrderAPI.Infrastructure/bin/Debug/net8.0/OrderAPI.Infrastructure.deps.json
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/OrderAPI.Infrastructure/bin/Debug/net8.0/OrderAPI.Infrastructure.dll
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/OrderAPI.Infrastructure/bin/Debug/net8.0/OrderAPI.Infrastructure.pdb
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/OrderAPI.Infrastructure/obj/Debug/net8.0/OrderAPI.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/OrderAPI.Infrastructure/obj/Debug/net8.0/OrderAPI.Infrastructure.AssemblyInfoInputs.cache
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/OrderAPI.Infrastructure/obj/Debug/net8.0/OrderAPI.Infrastructure.AssemblyInfo.cs
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/OrderAPI.Infrastructure/obj/Debug/net8.0/OrderAPI.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/OrderAPI.Infrastructure/obj/Debug/net8.0/OrderAPI.Infrastructure.sourcelink.json
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/OrderAPI.Infrastructure/obj/Debug/net8.0/OrderAPI.Infrastructure.dll
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/OrderAPI.Infrastructure/obj/Debug/net8.0/refint/OrderAPI.Infrastructure.dll
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/OrderAPI.Infrastructure/obj/Debug/net8.0/OrderAPI.Infrastructure.pdb
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/OrderAPI.Infrastructure/obj/Debug/net8.0/ref/OrderAPI.Infrastructure.dll
