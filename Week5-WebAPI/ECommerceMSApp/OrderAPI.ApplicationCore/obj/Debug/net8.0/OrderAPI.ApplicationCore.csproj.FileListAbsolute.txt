@@ -10,3 +10,6 @@
 /Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/OrderAPI.ApplicationCore/obj/Debug/net8.0/refint/OrderAPI.ApplicationCore.dll
 /Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/OrderAPI.ApplicationCore/obj/Debug/net8.0/OrderAPI.ApplicationCore.pdb
 /Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/OrderAPI.ApplicationCore/obj/Debug/net8.0/ref/OrderAPI.ApplicationCore.dll
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/OrderAPI.ApplicationCore/bin/Debug/net8.0/OrderAPI.ApplicationCore.runtimeconfig.json
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/OrderAPI.ApplicationCore/obj/Debug/net8.0/OrderAPI.ApplicationCore.csproj.AssemblyReference.cache
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/OrderAPI.ApplicationCore/obj/Debug/net8.0/OrderAPI.ApplicationCore.genruntimeconfig.cache

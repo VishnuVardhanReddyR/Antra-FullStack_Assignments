@@ -10,3 +10,9 @@
 /Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/OrderAPI.Infrastructure/obj/Debug/net8.0/refint/OrderAPI.Infrastructure.dll
 /Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/OrderAPI.Infrastructure/obj/Debug/net8.0/OrderAPI.Infrastructure.pdb
 /Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/OrderAPI.Infrastructure/obj/Debug/net8.0/ref/OrderAPI.Infrastructure.dll
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/OrderAPI.Infrastructure/bin/Debug/net8.0/OrderAPI.Infrastructure.runtimeconfig.json
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/OrderAPI.Infrastructure/bin/Debug/net8.0/OrderAPI.ApplicationCore.dll
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/OrderAPI.Infrastructure/bin/Debug/net8.0/OrderAPI.ApplicationCore.pdb
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/OrderAPI.Infrastructure/obj/Debug/net8.0/OrderAPI.Infrastructure.csproj.AssemblyReference.cache
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/OrderAPI.Infrastructure/obj/Debug/net8.0/OrderAPI.F9237AA8.Up2Date
+/Users/vishnu/Documents/GitHub/Antra-FullStack_Assignments/Week5-WebAPI/ECommerceMSApp/OrderAPI.Infrastructure/obj/Debug/net8.0/OrderAPI.Infrastructure.genruntimeconfig.cache

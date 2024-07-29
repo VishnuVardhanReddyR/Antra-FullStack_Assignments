@@ -10,6 +10,5 @@ public class ProductResponseModel
     public int Price { get; set; }
     public int Quantity { get; set; }
     public string Product_Image { get; set; }
-    [Key]
     public int CategoryId { get; set; }
 }

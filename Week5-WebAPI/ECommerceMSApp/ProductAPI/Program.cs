@@ -20,8 +20,17 @@ builder.Services.AddDbContext<ProductDbContext>(option =>
 builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.AddScoped<IProductRespositoryAsync, ProductRepositoryAsync>();
 builder.Services.AddScoped<IProductServiceAsync, ProductServiceAsync>();
+builder.Services.AddCors(option =>
+{
+    option.AddDefaultPolicy(p =>
+    {
+        p.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin();
+    });
+});
 
 var app = builder.Build();
+app.UseRouting();
+app.UseCors();
 app.MapControllers();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
